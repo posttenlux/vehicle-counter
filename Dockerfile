@@ -12,3 +12,5 @@ RUN pip --no-cache-dir install \
 
 COPY pyimagesearch/ /home/pyimagesearch
 COPY vehicle_counter.py /home
+
+WORKDIR /home
